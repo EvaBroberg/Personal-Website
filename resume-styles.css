@@ -419,26 +419,23 @@ span {
 	margin-left: 20px;
 	width: 80%;
 	height: auto;
-    background-color: rgba(228,232,233,.05);
+    background-color: #ccd0d4;
 	border: none;
 	outline: none;
 	border-bottom: 1px solid black;
-	color: white;
 	font-size: 18px;
 	margin-bottom: 16px;
 	resize: none;
-
-
-
 }
 
 
 
 form .submit{
 	background: rgb(25,25,25,);
-	border: 2px solid #cadde8;
+	border: 2px solid #ccd0d4;
 	border-radius: 30px;
-	color: #fff;
+	color: #363636;
+	font-weight: bold;
 	font-size: 20px;
 	letter-spacing: 2px;
 	height: 50px;
@@ -448,10 +445,52 @@ form .submit{
 }
 
 form .submit:hover {
-	background-color: #678895;
+	background-color: #7b8186;
+	border-color: #7b8186;
 	cursor: pointer;
 	clear: both;
+	color: white;
 }
+
+
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0 30px #b8c3c7 inset !important;
+}
+
+::-webkit-input-placeholder {
+   text-align: center;
+   color: black;
+  
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center; 
+   color: black;
+   
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center; 
+   color: black; 
+ 
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+   color: black;
+
+}
+
+input { 
+    text-align: center; 
+}
+
+
+
 
 .copyright {
 	max-width: 1200px;
@@ -488,10 +527,14 @@ form .submit:hover {
 	margin-right: 2em;
 }
 
+.icon4{
+	margin-top: 2em;
+	margin-right: 2em;
+}
+
 .names {
 	height: 30px;
 }
-
 
 .email {
 	height: 30px;
@@ -499,6 +542,65 @@ form .submit:hover {
 
 .message {
 	height: 330px;
+}
+
+
+.coders {
+	text-decoration: none;
+	color: #b9d2e1;
+	font-weight: normal;
+}
+
+.coders:hover {
+	color: white;
+}
+
+	.mobilecv {
+		display: none;
+	}
+
+.underline {
+	margin: 0;
+	padding: 0;
+	
+	font-size: 20px;
+	letter-spacing: 13px;
+	color: #b9d2e1;
+}
+
+/* XL desktop MEDIA QUERY */
+
+@media screen and (min-width:2000px) {
+
+
+
+.image {
+    position: absolute;
+    left: 0;
+
+
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+     z-index: -1;
+}
+
+.footer2 {
+    bottom: 0;
+    width: 100%;
+}
+
+.main-wrapper {
+    margin: auto;
+    width: 1150px;
+    float: right;
+}
+
+.main-content {
+	margin-bottom: 420px;
+}
 }
 
 
