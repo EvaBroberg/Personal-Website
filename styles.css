@@ -260,23 +260,20 @@ p {
 	margin-left: 20px;
 	width: 80%;
 	height: auto;
-    background-color: #b8c3c7;
+    background-color: #ccd0d4;
 	border: none;
 	outline: none;
 	border-bottom: 1px solid black;
 	font-size: 18px;
 	margin-bottom: 16px;
 	resize: none;
-
-
-
 }
 
 
 
 form .submit{
 	background: rgb(25,25,25,);
-	border: 2px solid #b8c3c7;
+	border: 2px solid #ccd0d4;
 	border-radius: 30px;
 	color: #363636;
 	font-weight: bold;
@@ -289,8 +286,8 @@ form .submit{
 }
 
 form .submit:hover {
-	background-color: #9aa7ac;
-	border-color: #9aa7ac;
+	background-color: #7b8186;
+	border-color: #7b8186;
 	cursor: pointer;
 	clear: both;
 	color: white;
@@ -371,6 +368,11 @@ input {
 	margin-right: 2em;
 }
 
+.icon4{
+	margin-top: 2em;
+	margin-right: 2em;
+}
+
 .names {
 	height: 30px;
 }
@@ -440,7 +442,7 @@ input {
 .main-content {
 	margin-bottom: 420px;
 }
-
+}
 
 
 
