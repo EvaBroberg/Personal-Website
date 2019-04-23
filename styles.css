@@ -91,21 +91,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .download {
 	width: 20px;
 	height: auto;
@@ -137,7 +122,7 @@ span:hover{
 
 
 .main-wrapper{
-	max-width: 2000px;
+	max-width: 5000px;
 	margin:auto;
 }
 
@@ -147,12 +132,8 @@ span:hover{
 
 .wrapper {
 	max-width: 100%;
-	margin:auto;
 	display: grid;
-	grid-template-columns: repeat(2,1fr);
-	grid-gap: 10px;
-	grid-template-areas:
-	"contentMain contentMain contentSub"
+	grid-template-columns: 1fr;
 }
 
 
@@ -409,40 +390,8 @@ input {
 	color: #b9d2e1;
 }
 
-/* XL desktop MEDIA QUERY */
-
-@media screen and (min-width:2000px) {
 
 
-
-.image {
-    position: absolute;
-    left: 0;
-
-
-}
-
-.footer {
-    bottom: 0;
-    width: 100%;
-     z-index: -1;
-}
-
-.footer2 {
-    bottom: 0;
-    width: 100%;
-}
-
-.main-wrapper {
-    margin: auto;
-    width: 1150px;
-    float: right;
-}
-
-.main-content {
-	margin-bottom: 420px;
-}
-}
 
 
 
@@ -512,8 +461,10 @@ input {
 
 
 	.map{
-	width: 100%;
+	width: 93%;
 	height: auto;
+	margin-top: 73px;
+	height: 330px;
 }
 .image {
 	width: 100%;
@@ -548,7 +499,7 @@ input {
 }
 
 .contact-title p{
-	text-align: center;
+	text-align: left;
 	font-size: 20px;
 
 }
@@ -615,9 +566,29 @@ div.main-content {
 	}
 
 	.icon{
-		width: 50px;
+		width: 30px;
 		height: auto;
 	}
+
+	.icon1{
+	margin-top: 2em;
+	margin-right: 1em;
+}
+
+.icon2{
+	margin-top: 2em;
+	margin-right: 1em;
+}
+
+.icon3{
+	margin-top: 2em;
+	margin-right: 1em;
+}
+
+.icon4{
+	margin-top: 2em;
+	margin-right: 1em;
+}
 
 
 		.logo {
